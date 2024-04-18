@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"name": "ADS_Ue1_6",
+			"path": "ADS_Ue1_6"
+		},
+		{
+			"name": "ADS_Ue1_5",
+			"path": "ADS_Ue1_5"
+		},
+		{
+			"name": "ADS_Ue1_4",
+			"path": "ADS_Ue1_4"
+		},
+		{
+			"name": "ADS_Ue1_3",
+			"path": "ADS_Ue1_3"
+		},
+		{
+			"name": "ADS_Ue1_2",
+			"path": "ADS_Ue1_2"
+		},
+		{
+			"name": "ADS_Ue1_1",
+			"path": "ADS_Ue1_1"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"initializer_list": "cpp",
+			"__node_handle": "cpp",
+			"list": "cpp"
+		}
+	}
+}
