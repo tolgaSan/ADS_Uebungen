@@ -29,7 +29,8 @@
 		"files.associations": {
 			"initializer_list": "cpp",
 			"__node_handle": "cpp",
-			"list": "cpp"
+			"list": "cpp",
+			"iostream": "cpp"
 		}
 	}
 }
