@@ -25,6 +25,29 @@
 void ListE::print_reversed() const
 {
     // TODO: Process the list recursively or iteratively.
+    //Mithilfe von Stack als Reserve ausgeben: FirstInLastOut
+
+    NodeE* node = m_head;
+    std::stack<NodeE*> stackWithNode;
+    while(node != nullptr){
+        stackWithNode.push(node);
+        node = node->next;
+    } 
+
+    while(!stackWithNode.empty()){
+        node = stackWithNode.top();
+        std::cout << node->item;
+        stackWithNode.pop();
+        if(!stackWithNode.empty()) {
+            std::cout << ":";
+        }
+    }
+
+    std::cout << "\n";
+
+
+
+
 
     return;
 }
@@ -43,5 +66,9 @@ void ListE::print_reversed_helper(NodeE* node) const
 
 int main()
 {
+
+    ListE list_singleLinkedexmpl_init = ListE({0,1,2,3,4,5,6,7,8,9});
+    list_singleLinkedexmpl_init.print_reversed();
+
     return 0;
 }

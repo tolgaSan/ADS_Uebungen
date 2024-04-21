@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     "/Users/tolgasan/Desktop/ADS/Übung/ADS_Ue1/ADS_Ue1_1/task01"
+binary-path:     "/Users/tolgasan/Desktop/ADS/ÜbungGit/ADS_Uebungen/ADS_Ue1/ADS_Ue1_1/task01"
 relocations:
   - { offsetInCU: 0x2F42, offset: 0x2F42, size: 0x8, addend: 0x0, symName: __ZNSt3__124__put_character_sequenceB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m, symObjAddr: 0x1870, symBinAddr: 0x1000030F0, symSize: 0x1EC }
   - { offsetInCU: 0x48A8, offset: 0x48A8, size: 0x8, addend: 0x0, symName: __ZNSt3__1lsB8ue170006INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc, symObjAddr: 0x508, symBinAddr: 0x100001D88, symSize: 0x48 }
